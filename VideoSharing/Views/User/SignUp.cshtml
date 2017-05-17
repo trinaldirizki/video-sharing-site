@@ -1,0 +1,38 @@
+﻿@model VideoSharing.ViewModels.UserSignUp
+@{
+    ViewBag.Title = "Sign Up";
+}
+
+<h1> Sign Up </h1>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+    <div class="form-group">
+        @Html.LabelFor(x => x.Ad)
+        @Html.TextBoxFor(x => x.Ad, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Soyad)
+        @Html.TextBoxFor(x => x.Soyad, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.NickName)
+        @Html.TextBoxFor(x => x.NickName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.Email)
+        @Html.TextBoxFor(x => x.Email, new { @class = "form-control", type = "email" })
+    </div>
+    <div>
+        @Html.LabelFor(x => x.password)
+        @Html.PasswordFor(x => x.password, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(x => x.passwordAgain)
+        @Html.PasswordFor(x => x.passwordAgain, new { @class = "form-control" })
+    </div>
+    <div>
+        <input type="submit" value="Kayıt Ol" class="btn btn-primary"/>
+    </div>
+}

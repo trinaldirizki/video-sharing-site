@@ -1,0 +1,168 @@
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\ApplicationInsights.config
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\csc.exe
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\vbc.exe
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\VBCSCompiler.exe
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\VideoSharing.dll.config
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\VideoSharing.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\VideoSharing.pdb
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.AI.Web.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.ApplicationInsights.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Helpers.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Mvc.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Razor.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Webpages.Deployment.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Webpages.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Webpages.Razor.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.AI.Web.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.ApplicationInsights.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Razor.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Webpages.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Webpages.Deployment.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Webpages.Razor.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Helpers.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Mvc.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\obj\Debug\VideoSharing.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\obj\Debug\VideoSharing.pdb
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\csc.exe.config
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\csc.rsp
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\csi.exe
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\csi.exe.config
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\csi.rsp
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.AppContext.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Console.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.IO.Compression.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.IO.Pipes.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Security.Claims.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Threading.Thread.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.ValueTuple.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Xml.XPath.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\vbc.exe.config
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\roslyn\vbc.rsp
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Antlr3.Runtime.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Newtonsoft.Json.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Optimization.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\WebGrease.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Antlr3.Runtime.pdb
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\Newtonsoft.Json.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\System.Web.Optimization.xml
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\obj\Debug\VideoSharing.csprojResolveAssemblyReference.cache
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\FluentMigrator.dll
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\FluentMigrator.pdb
+C:\Users\fidel\OneDrive\Belgeler\Visual Studio 2015\Projects\VideoSharing\VideoSharing\bin\FluentMigrator.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\obj\Debug\VideoSharing.csprojResolveAssemblyReference.cache
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\obj\Debug\VideoSharing.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\obj\Debug\VideoSharing.pdb
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\ApplicationInsights.config
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\csc.exe
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\csc.exe.config
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\csc.rsp
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\csi.exe
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\csi.rsp
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\System.AppContext.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\vbc.exe
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\vbc.exe.config
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\vbc.rsp
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\VBCSCompiler.exe
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\VideoSharing.dll.config
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\VideoSharing.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\VideoSharing.pdb
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Antlr3.Runtime.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\FluentMigrator.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.AI.Web.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.ApplicationInsights.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Newtonsoft.Json.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Helpers.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Mvc.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Optimization.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Razor.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Webpages.Deployment.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Webpages.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Webpages.Razor.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\WebGrease.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Antlr3.Runtime.pdb
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\FluentMigrator.pdb
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\FluentMigrator.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.AI.Web.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.ApplicationInsights.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Newtonsoft.Json.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Optimization.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Razor.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Webpages.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Webpages.Deployment.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Webpages.Razor.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Helpers.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\System.Web.Mvc.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Iesi.Collections.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\NHibernate.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\Iesi.Collections.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\NHibernate.xml
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\BCrypt.Net.dll
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\BCrypt.Net.pdb
+C:\Users\oğuzhan\Desktop\VideoSharing\VideoSharing\bin\BCrypt.Net.xml
