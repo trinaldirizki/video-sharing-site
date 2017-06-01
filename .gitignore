@@ -4,7 +4,7 @@ obj
 *.user
 *.sln.docstates
 
-[Dd].ebug/
+[Dd]ebug/
 [Rr]elease/
 *.obj
 *.pdb

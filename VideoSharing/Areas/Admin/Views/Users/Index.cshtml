@@ -1,0 +1,46 @@
+﻿@model VideoSharing.Areas.Admin.ViewModels.UsersIndex
+
+<h1>USERS</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>NickName</th>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>@user.user_id</td>
+                <td>@user.Name</td>
+                <td>@user.Surname</td>
+                <td>@user.NickName</td>
+                <td>@user.Email</td>
+                <td>@string.Join(",",user.Roles.Select(p=>p.Name))</td>
+                <td>
+                    <div class="btn btn-group">
+                        <a href="@Url.Action("edit",new {id=user.user_id} )" class="btn btn-xs btn-primary">
+                            <i class="glyphicon glyphicon-edit"></i>
+                            Edit
+                        </a>
+                        <a href="@Url.Action("resetpassword", new { id=user.user_id })" class="btn btn-xs btn-default">
+                            <i class="glyphicon glyphicon-lock"></i>
+                            Reset Password
+                        </a>
+                        <a href="@Url.Action("delete", new { id = user.user_id })" class="btn btn-xs btn-danger">
+                            <i class="glyphicon glyphicon-remove"></i>
+                            Delete
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

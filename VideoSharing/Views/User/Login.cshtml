@@ -1,13 +1,17 @@
 ﻿@model VideoSharing.ViewModels.UserLogin
+
 @{
-    ViewBag.Title = "Login";
+    ViewBag.Title = "Log in";
 }
 
-<h1> Login </h1>
+<h2>Giriş Yap</h2>
+<hr />
 
-@using (Html.BeginForm()) {
+@using (Html.BeginForm())
+{
+    <br />
     @Html.ValidationSummary()
-    
+
     <div class="form-group">
         @Html.LabelFor(x => x.email)
         @Html.TextBoxFor(x => x.email, new { @class = "form-control", type = "email" })

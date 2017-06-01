@@ -17,7 +17,7 @@ namespace VideoSharing
         private static ISessionFactory _sessionFactory;
         public static ISession Session
         {
-            get { return (ISession)HttpContext.Current.Items[SessionKey]; }
+            get { return (ISession) HttpContext.Current.Items[SessionKey]; }
         }
 
         public static void Configure()
@@ -28,11 +28,16 @@ namespace VideoSharing
 
             var mapper = new ModelMapper();
             mapper.AddMapping<UserMap>();
+            mapper.AddMapping<RoleMap>();
+            mapper.AddMapping<VideoMap>();
+            mapper.AddMapping<CommentMap>();
 
             config.AddMapping(mapper.CompileMappingForAllExplicitlyAddedEntities());
 
             _sessionFactory = config.BuildSessionFactory();
         }
+
+
         public static void OpenSession()
         {
             HttpContext.Current.Items[SessionKey] = _sessionFactory.OpenSession();

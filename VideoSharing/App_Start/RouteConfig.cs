@@ -18,8 +18,16 @@ namespace VideoSharing
                 url: "",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
-            routes.MapRoute("UserLogin", "Login", new { controller = "User", action = "Login" });
-            routes.MapRoute("UserSignUp", "SignUp", new { controller = "User", action = "SignUp" });
+            routes.MapRoute("Trending", "trending", new { controller = "Home", action = "Trending" });
+            routes.MapRoute("UserLogin", "login", new { controller = "User", action = "Login" });
+            routes.MapRoute("UserSignUp", "signup", new { controller = "User", action = "SignUp" });
+            routes.MapRoute("UserLogout", "logout", new { controller = "User", action = "Logout" });
+            routes.MapRoute("Upload", "upload", new { controller = "Upload", action = "Upload" });
+            routes.MapRoute("Video", "video", new { controller = "VideoData", action = "Index"});
+            routes.MapRoute("Download", "download", new { controller = "VideoData", action = "Download" });
+            routes.MapRoute("Like", "like", new { controller = "VideoData", action = "LikeVideo" });
+            routes.MapRoute("Search", "search", new { controller = "Search", action = "Index" });
+            
         }
     }
 }

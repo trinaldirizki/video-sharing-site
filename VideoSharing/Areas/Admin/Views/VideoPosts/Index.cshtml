@@ -1,0 +1,42 @@
+﻿@using System.Web.Hosting;
+@model VideoSharing.ViewModels.VideosIndex
+
+<h1>Welcome</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Video Title</th>
+            <th>Load Date</th>
+            <th>Video Link</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var video in Model.Videos)
+        {
+            <tr>
+                <td>@video.video_id</td>
+                <td>@video.video_title</td>
+                <td>@video.video_load_date</td>
+                @{ 
+                    var strVideoFilePath = HostingEnvironment.MapPath(video.video_path);
+                    <td>strVideoFilePath</td>
+                }
+                <td>
+                    <div class="btn btn-group">
+                        <a href="@Url.Action("edit", new { id = video.video_id })" class="btn btn-xs btn-primary">
+                            <i class="glyphicon glyphicon-edit"></i>
+                            Edit
+                        </a>
+                        <a href="@Url.Action("delete", new { id = video.video_id })" class="btn btn-xs btn-danger">
+                            <i class="glyphicon glyphicon-remove"></i>
+                            Delete
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

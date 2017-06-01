@@ -6,13 +6,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace VideoSharing.ViewModels
 {
-    public class UserSignUp
+    public class UserSignUp : VideosIndex
     {
         [Required]
-        public string Ad { get; set; }
+        public string Name { get; set; }
 
         [Required]
-        public string Soyad { get; set; }
+        public string Surname { get; set; }
 
         [Required]
         public string NickName { get; set; }
@@ -22,10 +22,12 @@ namespace VideoSharing.ViewModels
 
         [Required]
         [DataType(DataType.Password)]
-        public string password { get; set; }
+        public string Password { get; set; }
 
-        [Required]
+        //[Required]
         [DataType(DataType.Password)]
-        public string passwordAgain { get; set; }
+        public string ConfirmPassword { get; set; }
+
+        public int roleId { get; set; }
     }
 }

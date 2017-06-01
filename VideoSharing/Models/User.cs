@@ -15,7 +15,15 @@ namespace VideoSharing.Models
         public virtual string NickName { get; set; }
         public virtual string Email { get; set; }
         public virtual string PasswordHash { get; set; }
+        public virtual IList<Role> Roles { get; set; }
+        
+    
 
+
+        public User()
+        {
+            Roles = new List<Role>();
+        }
 
         public virtual void SetPassword(string password)
         {
@@ -53,6 +61,14 @@ namespace VideoSharing.Models
                 x.NotNullable(true);
                 x.Column("password");
             });
+           
+
+            Bag(x => x.Roles, x =>
+                {
+                    x.Table("role_users");
+                    x.Key(k => k.Column("user_id"));
+
+                }, x => x.ManyToMany(k => k.Column("role_id")));
         }
     }
 }

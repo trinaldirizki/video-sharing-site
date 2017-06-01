@@ -6,7 +6,7 @@ using System.Web;
 
 namespace VideoSharing.ViewModels
 {
-    public class UserLogin
+    public class UserLogin : VideosIndex
     {
         [Required]
         public string email { get; set; }

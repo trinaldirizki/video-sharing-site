@@ -1,0 +1,26 @@
+﻿@model VideoSharing.ViewModels.Videos
+
+@{
+    ViewBag.Title = "Upload a video";
+}
+
+<h2>Video Yükle</h2>
+<hr />
+
+@using (Html.BeginForm("Upload", "Upload", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>
+            <span>Select File:</span>
+            <input type="file" name="postedFile" />
+            <hr />
+        <div class="form-group">
+            @Html.LabelFor(x => x.title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.title, new { @class = "form-control" })
+            </div>
+        </div>
+            <input type="submit" value="Upload" />
+            <br />
+            <span style="color:green">@ViewBag.Message</span>
+    </div>
+}

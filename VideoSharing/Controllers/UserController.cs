@@ -7,30 +7,23 @@ using VideoSharing.ViewModels;
 using NHibernate.Linq;
 using VideoSharing.Models;
 using System.Web.Security;
+using VideoSharing.Infrastructure;
 
 namespace VideoSharing.Controllers
 {
     public class UserController : Controller
     {
         // GET: User
+        [SelectedTab("login")]
         public ActionResult Login()
         {
             return View();
         }
 
-        //[HttpPost]
-        //public ActionResult Login(UserLogin loginForm)
-        //{
-        //    if (loginForm.email == "fidel")
-        //        if (loginForm.password == "1234")
-        //            return RedirectToRoute("Home");
-        //    return View(loginForm);
-        //}
-
         [HttpPost]
+        [SelectedTab("login")]
         public ActionResult Login(UserLogin form, string returnUrl)
         {
-
             var user = Database.Session.Query<User>().FirstOrDefault(u => u.Email == form.email);
 
             if (user == null)
@@ -64,40 +57,66 @@ namespace VideoSharing.Controllers
 
         }
 
-        public ActionResult Logout()
-        {
-            FormsAuthentication.SignOut();
-            return RedirectToRoute("Home");
-        }
-
+        [SelectedTab("signup")]
         public ActionResult SignUp()
         {
             return View(new UserSignUp());
         }
 
         [HttpPost]
+        [SelectedTab("signup")]
         public ActionResult SignUp(UserSignUp signUpForm)
         {
-            if (Database.Session.Query<User>().Any(p => p.NickName == signUpForm.NickName))
+            if (Database.Session.Query<User>().Any(p => p.Email == signUpForm.Email))
             {
-                ModelState.AddModelError("Nickname", "Nickname must be unique");
+                ModelState.AddModelError("Email", "Email must be unique");
             } //username control in database. 
 
-            if(!ModelState.IsValid)
+            if (signUpForm.Password.Length < 8)
+            {
+                ModelState.AddModelError("Password", "Passwords must be longer then 8 characters");
+            }
+
+            if (signUpForm.Password != signUpForm.ConfirmPassword)
+            {
+                ModelState.AddModelError("PasswordAgain", "Passwords are not the same");
+            }
+
+            char[] passwordchars = signUpForm.Password.ToCharArray();
+            for (int i = 0; i < passwordchars.Length; i++)
+            {
+                if (passwordchars[i] >= 48 && passwordchars[i] <= 57) break;
+
+                if (i + 1 == passwordchars.Length)
+                {
+                    ModelState.AddModelError("Password", "Password must contain at 1 least number");
+                }
+            }
+
+            if (!ModelState.IsValid)
             {
                 return View(signUpForm);
             }
 
             var user = new User
             {
-                Name = signUpForm.Ad,
-                Surname = signUpForm.Soyad,
+                Name = signUpForm.Name,
+                Surname = signUpForm.Surname,
                 NickName = signUpForm.NickName,
                 Email = signUpForm.Email,
-                
+
             };
-            user.SetPassword(signUpForm.password);
+            //SyncRoles(signUpForm.Roles, user.Roles);
+            user.SetPassword(signUpForm.Password);
             Database.Session.Save(user);
+            Database.Session.Flush();
+            MyMail.Send(signUpForm);
+            return RedirectToRoute("Home");
+        }
+
+        public ActionResult Logout()
+        {
+            FormsAuthentication.SignOut();
             return RedirectToRoute("Home");
         }
     }

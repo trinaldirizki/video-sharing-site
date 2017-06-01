@@ -1,6 +1,41 @@
-﻿
+﻿@model VideoSharing.ViewModels.VideosIndex
+
 @{
     ViewBag.Title = "Home Page";
  }
 
-<h1> Anasayfa </h1>   
+<div class="jumbotron text-center">
+    <img src="~/Resources/yourtubeLogo.png" width="400" height="150" />
+    <p>Your video-sharing website.</p>
+</div>
+
+<div class="container">
+    <h2>Featured Videos</h2>
+    <div class="row">
+        @{ int count = 0;
+                foreach (var video in Model.Videos)
+                {
+                <div class="col-md-3">
+                    <div class="thumbnail">
+                        <a href="@Url.Action("Index","VideoData", new { id = video.video_id })" target="_blank">
+                            <img src="~/Resources/video.png" alt="Lights" style="width:100%">
+                            <div class="caption">
+                                <h4 class="media-heading">@video.video_title</h4>
+                                <p>@video.view_count views</p>
+                                <p>@video.like_count likes</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                if (count % 4 == 0 && count != 0)
+                {
+                    @:<br />
+                }
+                count++;
+            }
+        }       
+    </div>
+   
+</div>
+<hr>
+
